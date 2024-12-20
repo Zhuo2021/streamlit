@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # 设置页面标题
-st.title("黄埔分公司数据可视化系统")
+st.title("分公司数据可视化系统")
 
 # 文件上传组件，让用户上传Excel文件
 uploaded_file = st.file_uploader("请上传Excel文件", type=["xlsx", "xls"])
